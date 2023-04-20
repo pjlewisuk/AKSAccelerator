@@ -26,6 +26,6 @@ resource "azurerm_container_registry" "acr" {
 
 # add azure resource group
 resource "azurerm_resource_group" "rg" {
-  name     = "rg"
+  name     = "AksAccelerator"
   location = "westeurope"
 }
